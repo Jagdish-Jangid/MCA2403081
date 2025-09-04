@@ -1,1 +1,7 @@
 set ROLLNO=3081
+mkdir %ROLLNO%
+cd %ROLLNO%
+git init
+echo %ROLLNO% > README.md
+echo John Doe > Name.txt
+echo 123 Main Street >> Name.txt
